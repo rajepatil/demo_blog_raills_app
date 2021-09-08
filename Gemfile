@@ -45,7 +45,7 @@ group :development do
   # 
   gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
 
-  gem 'better_errors', '~> 2.7', '>= 2.7.1'
+  gem 'better_errors', '~> 2.8'
 end
 
 group :test do
@@ -60,7 +60,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Make better looking errors
-gem 'better_errors', '~> 2.7', '>= 2.7.1'
+gem 'better_errors', '~> 2.8'
 
 # bulma css
 gem 'bulma-rails', '~> 0.8.2'
